@@ -34,7 +34,7 @@ let canvas = Canvas(width: 400, height: 400)
 // Draw slightly thicker lines
 canvas.defaultLineWidth = 4
 canvas.translate(byX: 200, byY: 200)
-canvas.rotate(by: 360)
+canvas.rotate(by: 45)
 // Draw the vertical axis and label it
 canvas.drawLine(fromX: 0, fromY: -400, toX: 0, toY: 400)
 canvas.drawText(message: "y", size: 24, x: 10, y: 175)
